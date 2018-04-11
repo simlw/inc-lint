@@ -1,0 +1,14 @@
+{
+  "name": "eslint-faster",
+  "version": "1.0.0",
+  "description": "Only check changed files with eslint",
+  "main": "bin/fflint",
+  "bin": {
+    "fflint": "bin/fflint"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Levi Liu",
+  "license": "ISC"
+}

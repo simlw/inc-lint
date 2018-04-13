@@ -1,10 +1,10 @@
 {
-  "name": "eslint-faster",
+  "name": "inclint",
   "version": "1.0.0",
   "description": "Only check changed files with eslint",
-  "main": "bin/fflint",
+  "main": "bin/inclint",
   "bin": {
-    "fflint": "bin/fflint"
+    "inclint": "bin/inclint"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

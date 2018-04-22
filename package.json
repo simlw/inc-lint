@@ -12,8 +12,10 @@
   "author": "Levi Liu",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.4.0",
     "commander": "^2.15.1",
     "eslint-config-airbnb": "^16.1.0",
+    "shelljs": "^0.8.1",
     "simple-git": "^1.92.0"
   }
 }

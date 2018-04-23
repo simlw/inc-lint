@@ -17,7 +17,7 @@ commander.version('1.0.0')
   .parse(process.argv);
 
 var changeFiles = getChangedFiles(commander.targetDir);
-console.log('====>> change files: ', changeFiles);
+if (!changeFiles || changeFiles.length === 0) return;
 var command = `eslint -c ${commander.config} ${changeFiles.join(' ')}`; 
 var result = shell.exec(command, { silent: true }).stdout;
 

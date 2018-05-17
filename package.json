@@ -1,6 +1,6 @@
 {
   "name": "inclint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Only check changed files with eslint",
   "main": "bin/inclint",
   "bin": {
